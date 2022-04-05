@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
 
 // ignore: camel_case_types
-class cancer extends StatelessWidget {
-  const cancer({Key key}) : super(key: key);
+class diabetes extends StatelessWidget {
+  const diabetes({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class cancer extends StatelessWidget {
               // FadeInUp(
               //  duration: Duration(milliseconds: 1500),
               // child:
-              Image.asset("assets/images/cancerr.gif"),
+              Image.asset("assets/images/diabetes.gif"),
               // SizedBox(
               //   height: 25,
               // ),
@@ -64,17 +64,17 @@ class cancer extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      "Cancer - Genetic",
+                      "DIABETES-MELLITUS",
                       style: TextStyle(
                           color: Colors.black,
-                          fontSize: 37,
+                          fontSize: 30,
                           fontWeight: FontWeight.w700),
                     ),
                     SizedBox(
                       height: 60,
                       width: 220.0,
                       child: Text(
-                        "A disease in which abnormal cells divide uncontrollably and destroy body tissue.",
+                        "Diabetes mellitus refers to a group of diseases that affect how your body uses blood sugar (glucose). ",
                         style: TextStyle(
                             fontSize: 16,
                             color: Color.fromARGB(220, 100, 99, 99),
@@ -89,7 +89,7 @@ class cancer extends StatelessWidget {
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'COVID-19');
                           },
                           color: Color.fromARGB(186, 82, 206, 177),
                           height: 800,
@@ -100,42 +100,38 @@ class cancer extends StatelessWidget {
                           child: Text(
                             '''
 Intro:
-Cancer occurs when this
-cellular reproduction process
-goes out of control. In
-other words, cancer is a
-disease characterized by
-uncontrolled, uncoordinated
-and undesirable cell division.
-Unlike normal cells, cancer
-cells continue to grow
-and divide for their whole
-lives, replicating into more
-and more harmful cells.
+
+Diabetes Mellitus 
+("diabetes" for short)
+is a serious disease 
+that occurs when your
+body has difficulty 
+properly regulating the
+amount of dissolved sugar
+(glucose) in your blood 
+stream. It is unrelated 
+to a similarly named 
+disorder "Diabetes Insipidus"
+which involves kidney-
+related fluid retention
+problems.
 
 
 Symptoms:
-1) Fatigue.
 
-2) Lump or area of thickening
-that can be felt under the skin.
-
-3) Weight changes, including
-unintended loss or gain.
-
-4 )Skin changes, such as
-yellowing, darkening or redness
- of the skin, sores that won't
- heal, or changes to existing
- moles.
-
-5) Changes in bowel or bladder
- habits.
-
-6) Persistent cough or trouble
-breathing.
-
-
+1)Increased thirst.
+2)Frequent urination.
+Extreme hunger.
+3)Unexplained weight loss.
+4)Presence of ketones in 
+the urine (ketones are a 
+byproduct of the breakdown 
+of muscle and fat that
+happens when there's not 
+enough available insulin)
+5)Fatigue.
+6)Irritability.
+7)Blurred vision.
 
 
   ''',
@@ -165,7 +161,7 @@ breathing.
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'COVID-19');
                           },
                           color: Color.fromARGB(255, 237, 245, 2),
                           height: 300,
@@ -175,19 +171,17 @@ breathing.
                               borderRadius: BorderRadius.circular(8)),
                           child: Text(
                             '''
-
 Precautions:
-◉ Consider these cancer-
-prevention tips.
-◉ Don't use tobacco.
-Using any type of tobacco
-puts you on a collision
-course with cancer.
-◉ Eat a healthy diet.
-◉ Maintain a healthy weight
- and be physically active. ...
-◉ Protect yourself from the
-sun.
+1) Make a commitment to managing
+ your diabetes. ...
+2) Don't smoke. ...
+3)Keep your blood pressure
+ and cholesterol under control
+4)Schedule regular physicals
+ and eye exams. ...
+5)Keep your vaccines up to date
+6)Consider a daily aspirin. 
+
 
 
   ''',
@@ -217,7 +211,7 @@ sun.
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'COVID-19');
                           },
                           color: Color.fromARGB(255, 104, 242, 255),
                           height: 500,
@@ -230,36 +224,28 @@ sun.
 
 Source of cure:
 
-Surgery, radiation,
-chemotherapy
-and hormone therapy can all
-be used to relieve symptoms.
-other medications may relieve
-symptoms such as pain and
-shortness of breath.
-Palliative treatment can be
-used at the same time as other
-treatments intended to cure
-your cancer.
+Even though there's no
+diabetes cure, diabetes
+can be treated and controlled,
+and some people may go into 
+remission. To manage diabetes 
+effectively, you need to do 
+the following: Manage your 
+blood sugar levels
 
 
 Doctor
-1] Columbia Asia Hospital:
-Esteemed Panel of Doctors
-◉ Dr. Pooja Padmanabhan-
-    Consultant Breast Surgeon
-◉ Dr. Vinod Gore-
-    Surgical Oncologist
-◉ Dr. Tushar Vishvasrao Patil-
-   (Medical Oncology)
-◉ Dr. Kannan Subramanyam-
-   (Clinical Hematology)
+1]Dr Milind Patil 
+SHRI SWAMI DIABETES,& 
+ENDOCRINE CENTER
+ADDRESS;-
+Shop 214, 2nd floor,
+Sterling Tower, 
+Opposite Hotel Arora
+Towers, Camp, Pune
+Tel:+91 7420872139
 
 
-Address
-#22/2A, Near Nyati Empire,
-Kharadi Bypass Road, Kharadi,
-Pune-410014
   ''',
                             style: TextStyle(
                               color: Color.fromARGB(255, 0, 0, 0),
@@ -281,7 +267,7 @@ Pune-410014
                     ),
                     SizedBox(
                       height: 30,
-                    )
+                    ),
                   ],
                 ),
               ),

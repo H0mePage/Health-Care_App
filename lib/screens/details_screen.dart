@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
+import 'package:meditation_app/widgets/aids.dart';
 import 'package:meditation_app/widgets/cancer.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
+import 'package:meditation_app/widgets/covid.dart';
+import 'package:meditation_app/widgets/diabetes.dart';
 // ignore: unused_import
 import 'package:meditation_app/widgets/search_bar.dart';
 import 'package:meditation_app/widgets/category_card.dart';
+import 'package:meditation_app/widgets/tb.dart';
 
 class DetailsScreen extends StatelessWidget {
   @override
@@ -64,8 +68,8 @@ class DetailsScreen extends StatelessWidget {
                           press: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) {
-                                return cancer();
+                               MaterialPageRoute(builder: (context) {
+                                 return cancer();
                               }),
                             );
                           },
@@ -73,12 +77,26 @@ class DetailsScreen extends StatelessWidget {
                         CategoryCard(
                           title: "TUBERCULOSIS",
                           svgSrc: "assets/icons/Excrecises.svg",
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context){
+                                return tb();
+                            }),
+                            );
+                          },
                         ),
                         CategoryCard(
                           title: "COVID-19",
                           svgSrc: "assets/icons/Excrecises.svg",
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context){
+                                return covid();
+                              }),
+                            );
+                          },
                         ),
                         CategoryCard(
                           title: "DIBETES",
@@ -87,7 +105,7 @@ class DetailsScreen extends StatelessWidget {
                             Navigator.push(
                               context,
                               MaterialPageRoute(builder: (context) {
-                                return DetailsScreen();
+                                return diabetes();
                               }),
                             );
                           },
@@ -95,7 +113,14 @@ class DetailsScreen extends StatelessWidget {
                         CategoryCard(
                           title: "AIDS",
                           svgSrc: "assets/icons/yoga.svg",
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return aids();
+                              }),
+                            );
+                          },
                         ),
                       ],
                     ),

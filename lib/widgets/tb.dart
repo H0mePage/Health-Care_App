@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
 
 // ignore: camel_case_types
-class cancer extends StatelessWidget {
-  const cancer({Key key}) : super(key: key);
+class tb extends StatelessWidget {
+  const tb({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class cancer extends StatelessWidget {
               // FadeInUp(
               //  duration: Duration(milliseconds: 1500),
               // child:
-              Image.asset("assets/images/cancerr.gif"),
+              Image.asset("assets/images/tuber.gif"),
               // SizedBox(
               //   height: 25,
               // ),
@@ -64,7 +64,7 @@ class cancer extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      "Cancer - Genetic",
+                      "Tuberculosis",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 37,
@@ -74,7 +74,7 @@ class cancer extends StatelessWidget {
                       height: 60,
                       width: 220.0,
                       child: Text(
-                        "A disease in which abnormal cells divide uncontrollably and destroy body tissue.",
+                        "Tuberculosis (TB) is a potentially serious infectious disease that mainly affects the lungs",
                         style: TextStyle(
                             fontSize: 16,
                             color: Color.fromARGB(220, 100, 99, 99),
@@ -89,10 +89,10 @@ class cancer extends StatelessWidget {
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'TB');
                           },
                           color: Color.fromARGB(186, 82, 206, 177),
-                          height: 800,
+                          height: 600,
                           minWidth: 290,
                           padding: EdgeInsets.only(right: 20, left: 20),
                           shape: RoundedRectangleBorder(
@@ -100,44 +100,38 @@ class cancer extends StatelessWidget {
                           child: Text(
                             '''
 Intro:
-Cancer occurs when this
-cellular reproduction process
-goes out of control. In
-other words, cancer is a
-disease characterized by
-uncontrolled, uncoordinated
-and undesirable cell division.
-Unlike normal cells, cancer
-cells continue to grow
-and divide for their whole
-lives, replicating into more
-and more harmful cells.
+Tuberculosis (TB) is a
+bacterial infection 
+spread through 
+inhaling tiny droplets
+from the coughs or 
+sneezesof an infected 
+person.It mainly affects 
+the lungs,but it can 
+affect any part of the
+ body,including the tummy 
+(abdomen), glands,
+bones and nervous system.
 
 
 Symptoms:
-1) Fatigue.
+1) Coughing for three or 
+   more weeks.
 
-2) Lump or area of thickening
-that can be felt under the skin.
+2) Coughing up blood or mucus.
 
-3) Weight changes, including
-unintended loss or gain.
+3) Chest pain, or pain with 
+   breathing or coughing.
 
-4 )Skin changes, such as
-yellowing, darkening or redness
- of the skin, sores that won't
- heal, or changes to existing
- moles.
+4 )Unintentional weight loss.
 
-5) Changes in bowel or bladder
- habits.
+5) Fatigue.
 
-6) Persistent cough or trouble
-breathing.
+6) Night sweats.
 
 
 
-
+ 
   ''',
                             style: TextStyle(
                               color: Color.fromARGB(255, 0, 0, 0),
@@ -165,10 +159,10 @@ breathing.
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'TB');
                           },
                           color: Color.fromARGB(255, 237, 245, 2),
-                          height: 300,
+                          height: 500,
                           minWidth: 290,
                           padding: EdgeInsets.only(right: 20, left: 20),
                           shape: RoundedRectangleBorder(
@@ -177,17 +171,26 @@ breathing.
                             '''
 
 Precautions:
-◉ Consider these cancer-
-prevention tips.
-◉ Don't use tobacco.
-Using any type of tobacco
-puts you on a collision
-course with cancer.
-◉ Eat a healthy diet.
-◉ Maintain a healthy weight
- and be physically active. ...
-◉ Protect yourself from the
-sun.
+◉ Take all of your medicines
+  as they’re prescribed, 
+  until your doctor takes 
+  you off them.
+
+◉ Always cover your mouth 
+  with a tissue when you cough
+  or sneeze. Seal the tissue 
+  in a plastic bag, then
+  throw it away.
+
+◉ Wash your hands after 
+   coughing or sneezing.
+
+◉ Don’t visit other people
+  and don’t invite them to
+   visit you.
+
+◉ Use a fan or open windows
+  to move around fresh air.
 
 
   ''',
@@ -217,10 +220,10 @@ sun.
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'TB');
                           },
                           color: Color.fromARGB(255, 104, 242, 255),
-                          height: 500,
+                          height: 600,
                           minWidth: 290,
                           padding: EdgeInsets.only(right: 20, left: 20),
                           shape: RoundedRectangleBorder(
@@ -230,36 +233,47 @@ sun.
 
 Source of cure:
 
-Surgery, radiation,
-chemotherapy
-and hormone therapy can all
-be used to relieve symptoms.
-other medications may relieve
-symptoms such as pain and
-shortness of breath.
-Palliative treatment can be
-used at the same time as other
-treatments intended to cure
-your cancer.
+Treatment. TB is a treatable
+and curable disease.
+Active, drug-susceptible
+TB disease is treated with 
+a standard 6-month course 
+of 4 antimicrobial drugs 
+that are provided with 
+information and support to 
+he patient by a health worker
+or trained volunteer.
+
 
 
 Doctor
-1] Columbia Asia Hospital:
-Esteemed Panel of Doctors
-◉ Dr. Pooja Padmanabhan-
-    Consultant Breast Surgeon
-◉ Dr. Vinod Gore-
-    Surgical Oncologist
-◉ Dr. Tushar Vishvasrao Patil-
-   (Medical Oncology)
-◉ Dr. Kannan Subramanyam-
-   (Clinical Hematology)
+1] Dr. Pandharkar Chest Clinic -
+   Dr. Vaibhav Pandharkar
+   (Pulmonologist)
+   
+ Address: 
+ Office No. 017, First 
+ floor,  A - Building,
+  Downtown City Vista,
+ Fountain Road, opposite 
+ VictoriousKids Educares
+ ,Kharadi, 
+ Pune, Maharashtra 411014
 
 
-Address
-#22/2A, Near Nyati Empire,
-Kharadi Bypass Road, Kharadi,
-Pune-410014
+2) Dr. AGRAWAL - 
+   CHEST PHYSICIAN IN PUNE
+   
+ Address: 
+ NEAR, 108, KHIVANSARA
+ TRADE CENTRE (KTC), 
+ WAKAD PHATA, 
+ Dange Chowk Rd, above 
+ GANESH BHEL,
+ Pune, Maharashtra 411033
+
+
+
   ''',
                             style: TextStyle(
                               color: Color.fromARGB(255, 0, 0, 0),

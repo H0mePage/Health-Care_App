@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
 
 // ignore: camel_case_types
-class cancer extends StatelessWidget {
-  const cancer({Key key}) : super(key: key);
+class aids extends StatelessWidget {
+  const aids({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class cancer extends StatelessWidget {
               // FadeInUp(
               //  duration: Duration(milliseconds: 1500),
               // child:
-              Image.asset("assets/images/cancerr.gif"),
+              Image.asset("assets/images/aidss.gif"),
               // SizedBox(
               //   height: 25,
               // ),
@@ -64,7 +64,7 @@ class cancer extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      "Cancer - Genetic",
+                      "AIDS",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 37,
@@ -74,7 +74,7 @@ class cancer extends StatelessWidget {
                       height: 60,
                       width: 220.0,
                       child: Text(
-                        "A disease in which abnormal cells divide uncontrollably and destroy body tissue.",
+                        "AIDS stands for Acquired Immune Deficiency Syndrome",
                         style: TextStyle(
                             fontSize: 16,
                             color: Color.fromARGB(220, 100, 99, 99),
@@ -89,10 +89,10 @@ class cancer extends StatelessWidget {
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'TB');
                           },
                           color: Color.fromARGB(186, 82, 206, 177),
-                          height: 800,
+                          height: 600,
                           minWidth: 290,
                           padding: EdgeInsets.only(right: 20, left: 20),
                           shape: RoundedRectangleBorder(
@@ -100,44 +100,37 @@ class cancer extends StatelessWidget {
                           child: Text(
                             '''
 Intro:
-Cancer occurs when this
-cellular reproduction process
-goes out of control. In
-other words, cancer is a
-disease characterized by
-uncontrolled, uncoordinated
-and undesirable cell division.
-Unlike normal cells, cancer
-cells continue to grow
-and divide for their whole
-lives, replicating into more
-and more harmful cells.
-
+AIDS stands for Acquired
+Immune Deficiency 
+Syndrome. AIDS is a 
+serious condition that
+weakens the body's immune
+system, leaving it 
+unable to fight off 
+illness. AIDS is the
+last stage in a 
+progression of diseases 
+resulting from a viral 
+infection known as the 
+Human Immunodeficiency 
+Virus (HIV or AIDS virus).
 
 Symptoms:
-1) Fatigue.
-
-2) Lump or area of thickening
-that can be felt under the skin.
-
-3) Weight changes, including
-unintended loss or gain.
-
-4 )Skin changes, such as
-yellowing, darkening or redness
- of the skin, sores that won't
- heal, or changes to existing
- moles.
-
-5) Changes in bowel or bladder
- habits.
-
-6) Persistent cough or trouble
-breathing.
+1) Fever.
+2)Headache.
+3)Muscle aches and joint
+  pain.
+4)Rash.
+5)Sore throat and painful 
+  mouth sores.
+6)Swollen lymph glands, 
+  mainly on the neck.
+7)Diarrhea.
+8)Weight loss.
 
 
 
-
+ 
   ''',
                             style: TextStyle(
                               color: Color.fromARGB(255, 0, 0, 0),
@@ -165,10 +158,10 @@ breathing.
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'TB');
                           },
                           color: Color.fromARGB(255, 237, 245, 2),
-                          height: 300,
+                          height: 500,
                           minWidth: 290,
                           padding: EdgeInsets.only(right: 20, left: 20),
                           shape: RoundedRectangleBorder(
@@ -177,17 +170,19 @@ breathing.
                             '''
 
 Precautions:
-◉ Consider these cancer-
-prevention tips.
-◉ Don't use tobacco.
-Using any type of tobacco
-puts you on a collision
-course with cancer.
-◉ Eat a healthy diet.
-◉ Maintain a healthy weight
- and be physically active. ...
-◉ Protect yourself from the
-sun.
+
+1)Get tested for HIV. ...
+2)Choose less risky sexual
+ behaviors. ...
+3)Use condoms every time
+ you have sex. ...
+4)Limit your number of 
+  sexual partners. ...
+5)Get tested and treated 
+  for STDs. ...
+6)Talk to your health care 
+provider about pre-exposure
+ prophylaxis (PrEP).
 
 
   ''',
@@ -217,10 +212,10 @@ sun.
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'TB');
                           },
                           color: Color.fromARGB(255, 104, 242, 255),
-                          height: 500,
+                          height: 600,
                           minWidth: 290,
                           padding: EdgeInsets.only(right: 20, left: 20),
                           shape: RoundedRectangleBorder(
@@ -230,36 +225,44 @@ sun.
 
 Source of cure:
 
-Surgery, radiation,
-chemotherapy
-and hormone therapy can all
-be used to relieve symptoms.
-other medications may relieve
-symptoms such as pain and
-shortness of breath.
-Palliative treatment can be
-used at the same time as other
-treatments intended to cure
-your cancer.
+Currently, there's no
+cure for HIV / AIDS .
+Once you have the 
+infection, your body 
+can't get rid of it. 
+However, there are many 
+medications that can 
+control HIV and prevent 
+complications. These
+medications are called
+antiretroviral therapy (ART).
+
 
 
 Doctor
-1] Columbia Asia Hospital:
-Esteemed Panel of Doctors
-◉ Dr. Pooja Padmanabhan-
-    Consultant Breast Surgeon
-◉ Dr. Vinod Gore-
-    Surgical Oncologist
-◉ Dr. Tushar Vishvasrao Patil-
-   (Medical Oncology)
-◉ Dr. Kannan Subramanyam-
-   (Clinical Hematology)
+1]Dr. Milind Kulkarni 
+  HIV & AIDS Doctor
+   
+Address: 
+ Guru krupa Complex, No.7, 
+ Vishrantwadi Airport Rd, 
+ Siddheshwar Nagar,
+ Kasturba Housing Society,
+ Vishrantwadi, Pune, 
+ Maharashtra 411015
 
 
-Address
-#22/2A, Near Nyati Empire,
-Kharadi Bypass Road, Kharadi,
-Pune-410014
+ 
+2) Dr Ameet Dravid
+   
+Address: 
+ House 797, Office No 5,
+ Harmony, 1A, Bhandarkar Rd,
+ Deccan Gymkhana, Pune,
+ Maharashtra 411004
+
+
+
   ''',
                             style: TextStyle(
                               color: Color.fromARGB(255, 0, 0, 0),

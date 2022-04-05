@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
 
 // ignore: camel_case_types
-class cancer extends StatelessWidget {
-  const cancer({Key key}) : super(key: key);
+class covid extends StatelessWidget {
+  const covid({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,11 @@ class cancer extends StatelessWidget {
               // FadeInUp(
               //  duration: Duration(milliseconds: 1500),
               // child:
-              Image.asset("assets/images/cancerr.gif"),
+              Image.asset("assets/images/covid1.gif"),
+              SizedBox(
+                height: 20,
+              ),
+
               // SizedBox(
               //   height: 25,
               // ),
@@ -64,7 +68,7 @@ class cancer extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      "Cancer - Genetic",
+                      "COVID-19",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 37,
@@ -74,7 +78,7 @@ class cancer extends StatelessWidget {
                       height: 60,
                       width: 220.0,
                       child: Text(
-                        "A disease in which abnormal cells divide uncontrollably and destroy body tissue.",
+                        "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.",
                         style: TextStyle(
                             fontSize: 16,
                             color: Color.fromARGB(220, 100, 99, 99),
@@ -89,10 +93,10 @@ class cancer extends StatelessWidget {
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'COVID-19');
                           },
                           color: Color.fromARGB(186, 82, 206, 177),
-                          height: 800,
+                          height: 900,
                           minWidth: 290,
                           padding: EdgeInsets.only(right: 20, left: 20),
                           shape: RoundedRectangleBorder(
@@ -100,40 +104,46 @@ class cancer extends StatelessWidget {
                           child: Text(
                             '''
 Intro:
-Cancer occurs when this
-cellular reproduction process
-goes out of control. In
-other words, cancer is a
-disease characterized by
-uncontrolled, uncoordinated
-and undesirable cell division.
-Unlike normal cells, cancer
-cells continue to grow
-and divide for their whole
-lives, replicating into more
-and more harmful cells.
+Coronaviruses are a 
+large family of viruses 
+that are known to cause
+illness ranging from 
+the common cold to more
+severe diseases such
+as Middle East 
+Respiratory Syndrome 
+(MERS) and Severe Acute
+Respiratory Syndrome 
+(SARS). A novel corona
+virus (COVID-19) was 
+identified in 2019 in
+ Wuhan, China.
+
 
 
 Symptoms:
-1) Fatigue.
 
-2) Lump or area of thickening
-that can be felt under the skin.
+Most common symptoms:
+1)fever
+2)cough
+3)tiredness
+4)loss of taste or smell
 
-3) Weight changes, including
-unintended loss or gain.
+Less common symptoms:
+1)sore throat
+2)headache
+3)aches and pains
+4)diarrhoea
+5)a rash on skin, or 
+discolouration of fingers
+or toes
 
-4 )Skin changes, such as
-yellowing, darkening or redness
- of the skin, sores that won't
- heal, or changes to existing
- moles.
-
-5) Changes in bowel or bladder
- habits.
-
-6) Persistent cough or trouble
-breathing.
+Serious symptoms:
+1)difficulty breathing or 
+shortness of breath
+2)loss of speech or
+ mobility, or confusion
+3)chest pain
 
 
 
@@ -160,12 +170,16 @@ breathing.
                     SizedBox(
                       height: 30,
                     ),
+                    Image.asset("assets/images/covid2.gif"),
+                    SizedBox(
+                      height: 20,
+                    ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'COVID-19');
                           },
                           color: Color.fromARGB(255, 237, 245, 2),
                           height: 300,
@@ -177,17 +191,22 @@ breathing.
                             '''
 
 Precautions:
-◉ Consider these cancer-
-prevention tips.
-◉ Don't use tobacco.
-Using any type of tobacco
-puts you on a collision
-course with cancer.
-◉ Eat a healthy diet.
-◉ Maintain a healthy weight
- and be physically active. ...
-◉ Protect yourself from the
-sun.
+◉ Maintain a safe 
+  distance from others 
+  (at least 1 metre), 
+  even if they don’t appear
+  to be sick.
+◉ Wear a mask in public,
+ especially indoors or
+ when physical distancing
+ is not possible.
+◉Choose open, well-
+  ventilated spaces over 
+  closed ones. Open a window 
+  if indoors.
+◉Stay home if you feel 
+  unwell.
+
 
 
   ''',
@@ -212,12 +231,16 @@ sun.
                     SizedBox(
                       height: 30,
                     ),
+                    Image.asset("assets/images/covid3.gif"),
+                    SizedBox(
+                      height: 20,
+                    ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         MaterialButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, 'Cancer');
+                            Navigator.pushNamed(context, 'COVID-19');
                           },
                           color: Color.fromARGB(255, 104, 242, 255),
                           height: 500,
@@ -227,6 +250,7 @@ sun.
                               borderRadius: BorderRadius.circular(8)),
                           child: Text(
                             '''
+
 
 Source of cure:
 
@@ -244,22 +268,16 @@ your cancer.
 
 
 Doctor
-1] Columbia Asia Hospital:
-Esteemed Panel of Doctors
-◉ Dr. Pooja Padmanabhan-
-    Consultant Breast Surgeon
-◉ Dr. Vinod Gore-
-    Surgical Oncologist
-◉ Dr. Tushar Vishvasrao Patil-
-   (Medical Oncology)
-◉ Dr. Kannan Subramanyam-
-   (Clinical Hematology)
+1] Harjeevan Hospital
+  ADDRESS:
+  983/3, Opposite Sarasbagh,
+   Friday Peth, Pune 411002
 
+2]	Panchsheel Hospital
+    ADDRESS:
+    368 /, Nana Peth,
+     Pune 411042
 
-Address
-#22/2A, Near Nyati Empire,
-Kharadi Bypass Road, Kharadi,
-Pune-410014
   ''',
                             style: TextStyle(
                               color: Color.fromARGB(255, 0, 0, 0),
@@ -281,7 +299,11 @@ Pune-410014
                     ),
                     SizedBox(
                       height: 30,
-                    )
+                    ),
+                    Image.asset("assets/images/covid5.gif"),
+                    SizedBox(
+                      height: 20,
+                    ),
                   ],
                 ),
               ),
